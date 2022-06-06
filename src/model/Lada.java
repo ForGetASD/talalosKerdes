@@ -15,4 +15,28 @@ public class Lada {
         this.szoveg = szoveg;
         this.nalaVan = nalaVan;
     }
+    
+    public String getAnyag(){
+        return anyag;
+    }
+    
+    public String getSzoveg(){
+        return szoveg;
+    }
+    
+    public boolean getNalaVan(){
+        return nalaVan;
+    }
+    
+    public void setAnyag(String anyag){
+        this.anyag = anyag;
+    }
+    
+    public void setSzoveg(String szoveg){
+        this.szoveg = szoveg;
+    }
+    
+    public void setNalaVan(boolean nalaVan){
+        this.nalaVan = nalaVan;
+    }
 }
