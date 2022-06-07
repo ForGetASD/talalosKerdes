@@ -1,22 +1,22 @@
 package model;
 
 public class Lada {
-    private String anyag;
+    private Anyag anyag;
     private String szoveg;
     private boolean nalaVan;
 
     
-    public Lada(String anyag, String szoveg){
+    public Lada(Anyag anyag, String szoveg){
         this(anyag, szoveg, false);
     }
     
-    public Lada(String anyag, String szoveg, boolean nalaVan){
+    public Lada(Anyag anyag, String szoveg, boolean nalaVan){
         this.anyag = anyag;
         this.szoveg = szoveg;
         this.nalaVan = nalaVan;
     }
     
-    public String getAnyag(){
+    public Anyag getAnyag(){
         return anyag;
     }
     
@@ -28,7 +28,7 @@ public class Lada {
         return nalaVan;
     }
     
-    public void setAnyag(String anyag){
+    public void setAnyag(Anyag anyag){
         this.anyag = anyag;
     }
     
