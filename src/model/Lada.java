@@ -6,6 +6,10 @@ public class Lada {
     private boolean nalaVan;
 
     
+    public Lada(String szoveg){
+        this(Anyag.BRONZ, szoveg, false);
+    }
+    
     public Lada(Anyag anyag, String szoveg){
         this(anyag, szoveg, false);
     }
